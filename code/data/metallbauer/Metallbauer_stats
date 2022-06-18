@@ -12,6 +12,17 @@ Max:  29.0
 65 percentile:  1.666666666666667
 
 
+MEAN abs:  0.6587315686622846
+Median abs:  0.0
+Max abs:  11
+75 percentile:  1.0
+90 percentile:  2.0
+65 percentile:  1.0
+Ones:  2217
+Twos:  827
+Threes:  352
+Overall:  5629
+
 
 ['Abdichtung', 'Bike', 'Fahrrad', 'Garten', 'Instandsetzung', 'Korrosionsschutz', 'Landwirt', 'langlebig', 'Mitfahrgelegenheit', 'Reparatur', 'Sanierung', 'Schienenfahrzeug', 'Ventilator']
 [('Reparatur', 0.7809323668479919), ('Schweres_Geraet', 0.7617080211639404), ('Waschstrasse', 0.7608894109725952), ('Guellebehaelter', 0.7506224513053894), ('Hundetoilette', 0.7491899728775024), ('Parkscheinautomat', 0.7436283230781555), ('Pelletsheizung', 0.7426888346672058), ('Rasentraktor', 0.7394979000091553), ('Kuehlzelle', 0.7371774911880493), ('Kaltasphalt', 0.7368870377540588)]

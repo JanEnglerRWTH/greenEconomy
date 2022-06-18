@@ -12,7 +12,16 @@ Max:  44.666666666666664
 65 percentile:  4.333333333333333
 
 
-
+MEAN abs:  1.7104
+Median abs:  1.0
+Max abs:  15
+75 percentile:  2.0
+90 percentile:  4.0
+65 percentile:  2.0
+Ones:  7571
+Twos:  4318
+Threes:  2473
+Overall:  10000
 
 
 

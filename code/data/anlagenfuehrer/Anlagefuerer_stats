@@ -19,6 +19,21 @@ Max:  43.0
 65 percentile:  1.0
 
 
+
+MEAN abs:  0.6602699841185813
+Median abs:  0.0
+Max abs:  13
+75 percentile:  1.0
+90 percentile:  2.0
+65 percentile:  1.0
+Ones:  2723
+Twos:  1149
+Threes:  514
+Overall:  7556
+
+
+
+
 Cluster:  1
 ['Abfall', 'Abwasser', 'Abwasserbehandlung', 'Altpapier', 'Biogasanlage', 'Brandschutz', 'Deponie', 'Energiemanagement', 'Energieversorgung', 'Entsorgung', 'Fensterbau', 'Filtration', 'Instandsetzung', 'Klimatechnik', 'Leergut', 'Messtechnik', 'Recycling', 'Recyclinganlage', 'Regeltechnik', 'Reparatur', 'Schallschutz', 'Schrott', 'Sortieranlage', 'Steuerungstechnik', 'Verpackungstechnik']
 [('Entsorgung', 0.8073258399963379), ('Holzheizung', 0.7982982993125916), ('Warmwasseraufbereitung', 0.7976000905036926), ('Lueftungstechnik', 0.7889758944511414), ('Wasseraufbereitung', 0.7877190709114075), ('Fernwaerme-', 0.7854421138763428), ('Blockheizkraftwerkes', 0.784204363822937), ('Waermeversorgung', 0.7771494388580322), ('Elektroanlagen', 0.7768326997756958), ('Nutzung_Abwaerme', 0.7767540216445923)]
