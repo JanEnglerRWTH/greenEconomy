@@ -1,0 +1,80 @@
+Anzahl der Stellen:  9334
+Absolute GE Index:  59219.0
+Mean GE Index:  6.344439682879794
+465 der 1800 Wörter wurden benutzt
+
+
+MEAN:  3.9874
+Median:  2.666666666666667
+Max:  44.666666666666664
+75 percentile:  5.333333333333334
+90 percentile:  8.666666666666668
+65 percentile:  4.333333333333333
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cluster:  3
+['Abfall', 'Biodiesel', 'Biogas', 'Biogasanlage', 'biologisch', 'Bio', 'Biomasse', 'Blume', 'Energieversorgung', 'Energiewende', 'Erdgas', 'erneuerbar', 'Ernte', 'Garten', 'Klimaschutz', 'Klimawandel', 'Landwirt', 'Landwirtschaft', 'Lein', 'Nachhaltigkeit', 'offshore', 'Pflanze', 'Photovoltaik', 'Recycling', 'Umwelt', 'Umweltbewusstsein', 'Umweltschutz', 'Versorgungssicherheit', 'Wertstoff', 'Windenergie', 'Windkraft', 'Windkraftanlage', 'Windpark']
+[('Biomasse', 0.8416311144828796), ('Biogas', 0.8400291204452515), ('Energiegewinnung', 0.8287700414657593), ('Biogasanlagen', 0.8283641338348389), ('regenerative_Energie', 0.8233478665351868), ('Energieerzeugung', 0.8163827061653137), ('regenerative_Energien', 0.8161099553108215), ('Solarenergie', 0.8139453530311584), ('Oekoenergie', 0.8086337447166443), ('Windenergie', 0.8080390691757202)]
+
+Cluster:  1
+['Abluft', 'Abwasser', 'Blockheizkraftwerk', 'Brandschutz', 'Emission', 'energetisch', 'Energieeffizienz', 'Energienetz', 'Energieverbrauch', 'Entsorgung', 'Feuerschutz', 'Filteranlagen', 'Filtration', 'Haustechnik', 'Instandsetzung', 'klimaneutral', 'Ladeinfrastruktur', 'langlebig', 'Pellet', 'Photovoltaikanlage', 'Recyclinganlage', 'regenerativ', 'Reparatur', 'ressourcenschonend', 'Sanierung', 'Schallschutz', 'Solaranlage', 'Sortieranlage', 'Umspannwerke', 'umweltfreundlich', 'umweltschonend', 'Wasseraufbereitung', 'Wasseraufbereitungsanlage']
+[('Warmwasseraufbereitung', 0.8602441549301147), ('Holzheizung', 0.8581950664520264), ('Pelletsheizung', 0.8517800569534302), ('Blockheizkraftwerkes', 0.8412740230560303), ('Energiekosten_sparen', 0.838262677192688), ('Solaranlage_Dach', 0.8266153335571289), ('Blockheizkraftwerk_BHKW', 0.8249348402023315), ('Waermerueckgewinnung', 0.8246853351593018), ('Nutzung_Abwaerme', 0.8242174386978149), ('Blockheizkraftwerks', 0.8235757946968079)]
+
+Cluster:  2
+['Automatisierungstechnik', 'Biotech', 'Biotechnologie', 'Energiemanagement', 'Fensterbau', 'Heiztechnik', 'Heizungstechnik', 'Klimatechnik', 'Landschaftsbau', 'Landtechnik', 'Leichtbau', 'Messtechnik', 'Prozessleittechnik', 'Prozessoptimierung', 'Prozesstechnik', 'Regeltechnik', 'Regelungstechnik', 'Solartechnik', 'Steuerungstechnik', 'Umwelttechnik', 'Verfahrenstechnik', 'Verpackungstechnik', 'Versorgungstechnik']
+[('Prozesstechnik', 0.8808741569519043), ('Energietechnik', 0.8745461702346802), ('Automatisierungs-', 0.8737039566040039), ('Automatisierungstechnik', 0.8729497790336609), ('Umwelttechnik', 0.8663039207458496), ('Sanitaertechnik', 0.8509933352470398), ('Fluidtechnik', 0.8460367918014526), ('Medizintechnik', 0.8429437875747681), ('Werkstoff-', 0.8427025675773621), ('Kraftwerkstechnik', 0.835838794708252)]
+
+Cluster:  0
+['Batterie', 'Bike', 'Brennstoffzelle', 'Carsharing', 'Elektroauto', 'Elektrofahrzeuge', 'Elektromobil', 'Elektromotor', 'Elektroroller', 'Fahrrad', 'Gebrauchtwagen', 'Ladestation', 'led', 'Schienenfahrzeug', 'Tandem', 'Unterwasser', 'Ventilator']
+[('Elektrorad', 0.8455175757408142), ('E-Mobil', 0.8453087210655212), ('Elektro-Auto', 0.8381335735321045), ('E-Auto', 0.8282856345176697), ('Elektroauto', 0.828139066696167), ('Elektroantrieb', 0.8213674426078796), ('Lastenrad', 0.8204548358917236), ('Elektrofahrzeug', 0.8165310025215149), ('Range-Extender', 0.8164047002792358), ('Hybridauto', 0.8067052364349365)]
+
+
+
+
+oder
+
+
+Cluster:  4
+['Abfall', 'Abluft', 'Abwasser', 'Biodiesel', 'Biogas', 'biologisch', 'Biomasse', 'Blume', 'Emission', 'Energienetz', 'Erdgas', 'erneuerbar', 'Ernte', 'Filtration', 'klimaneutral', 'Ladeinfrastruktur', 'langlebig', 'Lein', 'offshore', 'Pellet', 'Pflanze', 'regenerativ', 'ressourcenschonend', 'umweltfreundlich', 'umweltschonend', 'Wertstoff']
+[('Bioerdgas', 0.8587210774421692), ('Biogasproduktion', 0.854675829410553), ('Biomasse', 0.837485134601593), ('Erdgasnetz_eingespeist', 0.8372431397438049), ('Klaergas', 0.8348073363304138), ('Gaerreste', 0.832495391368866), ('CO2-neutral', 0.8301038146018982), ('Reststoffen', 0.8265483379364014), ('Biogas', 0.8253521919250488), ('regenerativ', 0.8246075510978699)]
+
+Cluster:  3
+['Automatisierungstechnik', 'Biotech', 'Biotechnologie', 'Energiemanagement', 'Fensterbau', 'Heiztechnik', 'Heizungstechnik', 'Klimatechnik', 'Landschaftsbau', 'Landtechnik', 'led', 'Messtechnik', 'Prozessleittechnik', 'Prozessoptimierung', 'Prozesstechnik', 'Regeltechnik', 'Regelungstechnik', 'Solartechnik', 'Steuerungstechnik', 'Umwelttechnik', 'Verfahrenstechnik', 'Verpackungstechnik', 'Versorgungstechnik']
+[('Prozesstechnik', 0.880439281463623), ('Automatisierungs-', 0.8756483793258667), ('Automatisierungstechnik', 0.8718400001525879), ('Energietechnik', 0.8710812330245972), ('Umwelttechnik', 0.8629523515701294), ('Sanitaertechnik', 0.8544775247573853), ('Fluidtechnik', 0.84824138879776), ('Werkstoff-', 0.8418421745300293), ('Verpackungstechnik', 0.8409804701805115), ('Prueftechnik', 0.8403409719467163)]
+
+Cluster:  0
+['Batterie', 'Bike', 'Brennstoffzelle', 'Carsharing', 'Elektroauto', 'Elektrofahrzeuge', 'Elektromobil', 'Elektromotor', 'Elektroroller', 'Fahrrad', 'Gebrauchtwagen', 'Ladestation', 'Schienenfahrzeug', 'Tandem']
+[('Elektroauto', 0.8625618815422058), ('Elektrorad', 0.8516149520874023), ('E-Auto', 0.8460886478424072), ('Elektroantrieb', 0.8452639579772949), ('E-Mobil', 0.8430083990097046), ('Elektro-Auto', 0.8423988223075867), ('Elektrofahrzeug', 0.8345158100128174), ('Lastenrad', 0.8110222816467285), ('Elektromobil', 0.8106490969657898), ('Verbrennungsmotor', 0.8098487257957458)]
+
+Cluster:  1
+['Biogasanlage', 'Blockheizkraftwerk', 'Landwirt', 'Photovoltaik', 'Photovoltaikanlage', 'Solaranlage', 'Windenergie', 'Windkraft', 'Windkraftanlage', 'Windpark']
+[('Biogasanlage', 0.8856144547462463), ('Photovoltaikanlage', 0.8743289709091187), ('Windkraft', 0.8489267826080322), ('Windenergie', 0.8430250883102417), ('Windkraftanlage', 0.8376268148422241), ('Windpark', 0.8318483829498291), ('Solaranlage', 0.8287408351898193), ('Photovoltaikanlagen', 0.8248404264450073), ('Photovoltaik-Anlage', 0.8244708180427551), ('Windkraftanlagen', 0.8193440437316895)]
+
+Cluster:  5
+['Bio', 'Energieeffizienz', 'Energieverbrauch', 'Energieversorgung', 'Energiewende', 'Klimaschutz', 'Klimawandel', 'Landwirtschaft', 'Leichtbau', 'Nachhaltigkeit', 'Recycling', 'Umwelt', 'Umweltbewusstsein', 'Umweltschutz', 'Versorgungssicherheit']
+[('Klimaschutz', 0.8769701719284058), ('Umweltschutz', 0.8579328060150146), ('Energieeffizienz', 0.8541755676269531), ('Ressourceneffizienz', 0.8331992626190186), ('Energiesparen', 0.8248979449272156), ('Nachhaltigkeit', 0.8244981169700623), ('erneuerbare_Energien', 0.8217944502830505), ('Energiewende', 0.820048451423645), ('regionale_Wertschoepfung', 0.8195949792861938), ('alternativen_Energien', 0.8141891360282898)]
+
+Cluster:  2
+['Brandschutz', 'energetisch', 'Entsorgung', 'Feuerschutz', 'Filteranlagen', 'Garten', 'Haustechnik', 'Instandsetzung', 'Recyclinganlage', 'Reparatur', 'Sanierung', 'Schallschutz', 'Sortieranlage', 'Umspannwerke', 'Unterwasser', 'Ventilator', 'Wasseraufbereitung', 'Wasseraufbereitungsanlage']
+[('Warmwasseraufbereitung', 0.8351578116416931), ('Pelletsheizung', 0.8161807656288147), ('Duschen_Umkleiden', 0.8159402012825012), ('Lueftungsanlagen', 0.8034363389015198), ('Blockheizkraftwerkes', 0.8024749159812927), ('Filteranlagen', 0.8008490800857544), ('Wasseraufbereitungsanlage', 0.8001115918159485), ('Be-_Entlueftung', 0.7962706089019775), ('Holzheizung', 0.7960232496261597), ('Pelletheizung', 0.7947269082069397)]
+
+
+
+Process finished with exit code 0
+

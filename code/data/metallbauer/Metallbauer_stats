@@ -1,0 +1,31 @@
+Anzahl der Stellen:  10000
+Absolute GE Index:  14372.66666666667
+Mean GE Index:  1.437266666666667
+322 der 1800 Wörter wurden benutzt
+
+
+MEAN:  1.6686800497424055
+Median:  0.0
+Max:  29.0
+75 percentile:  2.666666666666667
+90 percentile:  4.733333333333273
+65 percentile:  1.666666666666667
+
+
+
+['Abdichtung', 'Bike', 'Fahrrad', 'Garten', 'Instandsetzung', 'Korrosionsschutz', 'Landwirt', 'langlebig', 'Mitfahrgelegenheit', 'Reparatur', 'Sanierung', 'Schienenfahrzeug', 'Ventilator']
+[('Reparatur', 0.7809323668479919), ('Schweres_Geraet', 0.7617080211639404), ('Waschstrasse', 0.7608894109725952), ('Guellebehaelter', 0.7506224513053894), ('Hundetoilette', 0.7491899728775024), ('Parkscheinautomat', 0.7436283230781555), ('Pelletsheizung', 0.7426888346672058), ('Rasentraktor', 0.7394979000091553), ('Kuehlzelle', 0.7371774911880493), ('Kaltasphalt', 0.7368870377540588)]
+
+Cluster:  2
+['Abfall', 'Abwasser', 'Altlast', 'biologisch', 'Dekontamination', 'Entsorgung', 'regenerativ', 'Wasseraufbereitung', 'Wasserreinigung', 'Wertstoff']
+[('Bioabfaelle', 0.8378987908363342), ('Entsorgung', 0.8352387547492981), ('Gaerreste', 0.8269363045692444), ('Lagerstaettenwasser', 0.8139592409133911), ('Gruenabfaellen', 0.8138188123703003), ('Klaerschlamm', 0.8060517907142639), ('Wasserreinigung', 0.8059192299842834), ('Reststoffen', 0.8032568693161011), ('Abwasser', 0.8016031980514526), ('umweltgerecht', 0.7993432879447937)]
+
+Cluster:  3
+['Biogas', 'Biogasanlage', 'Bio', 'Energieversorgung', 'Energiewende', 'erneuerbar', 'Klimaschutz', 'Landwirtschaft', 'led', 'Leichtbau', 'Nachhaltigkeit', 'Photovoltaik', 'Recycling', 'Umwelt', 'Umweltschutz', 'Wasserkraft', 'Windenergie', 'Windkraft']
+[('regenerative_Energien', 0.8521823883056641), ('erneuerbare_Energien', 0.8431417942047119), ('Energieerzeugung', 0.840711772441864), ('erneuerbare_Energie', 0.840194046497345), ('Windenergie', 0.8385612964630127), ('Solarenergie', 0.834846019744873), ('Fotovoltaik', 0.8325105309486389), ('Energiegewinnung', 0.8290467262268066), ('erneuerbaren_Energien', 0.8283107876777649), ('alternativen_Energien', 0.8268054723739624)]
+
+Cluster:  1
+['Brandschutz', 'Fensterbau', 'Feuerschutz', 'Haustechnik', 'Klimatechnik', 'Landschaftsbau', 'Landtechnik', 'Messtechnik', 'Schallschutz', 'Steuerungstechnik', 'Umwelttechnik']
+[('Heizung_Sanitaer', 0.8487492799758911), ('Haustechnik', 0.8450993895530701), ('Sanitaertechnik', 0.8378915190696716), ('Gebaeudetechnik', 0.8301302790641785), ('Klimatechnik', 0.8288167119026184), ('Lueftungstechnik', 0.8260905146598816), ('Heizungs-_Lueftungs-', 0.8190215229988098), ('Sanitaer', 0.8135602474212646), ('Steuerungstechnik', 0.8082589507102966), ('Messtechnik', 0.8067141175270081)]
+
+

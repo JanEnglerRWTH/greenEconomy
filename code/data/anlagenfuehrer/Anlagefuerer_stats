@@ -1,0 +1,37 @@
+Maschinen- und Anlagenführer/in
+
+beispiel:
+https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1189639802-S
+vs
+https://www.arbeitsagentur.de/jobsuche/jobdetail/14284-9543132-S
+
+22.091 Jobs vs 7.543 jobs
+
+
+Anzahl der Stellen:  7556
+382 der 1800 Wörter wurden benutzt
+
+MEAN:  1.8926239632962767
+Median:  0.0
+Max:  43.0
+75 percentile:  2.666666666666667
+90 percentile:  6.0
+65 percentile:  1.0
+
+
+Cluster:  1
+['Abfall', 'Abwasser', 'Abwasserbehandlung', 'Altpapier', 'Biogasanlage', 'Brandschutz', 'Deponie', 'Energiemanagement', 'Energieversorgung', 'Entsorgung', 'Fensterbau', 'Filtration', 'Instandsetzung', 'Klimatechnik', 'Leergut', 'Messtechnik', 'Recycling', 'Recyclinganlage', 'Regeltechnik', 'Reparatur', 'Schallschutz', 'Schrott', 'Sortieranlage', 'Steuerungstechnik', 'Verpackungstechnik']
+[('Entsorgung', 0.8073258399963379), ('Holzheizung', 0.7982982993125916), ('Warmwasseraufbereitung', 0.7976000905036926), ('Lueftungstechnik', 0.7889758944511414), ('Wasseraufbereitung', 0.7877190709114075), ('Fernwaerme-', 0.7854421138763428), ('Blockheizkraftwerkes', 0.784204363822937), ('Waermeversorgung', 0.7771494388580322), ('Elektroanlagen', 0.7768326997756958), ('Nutzung_Abwaerme', 0.7767540216445923)]
+
+Cluster:  3
+['Automatisierungstechnik', 'Blume', 'Energiewende', 'Forstwirtschaft', 'Garten', 'Klimaschutz', 'Kreislaufwirtschaft', 'Landschaftsbau', 'Landwirt', 'Landwirtschaft', 'Lein', 'Nachhaltigkeit', 'Prozessoptimierung', 'Umwelt', 'Umweltbewusstsein', 'Umweltmanagement', 'Umweltschutz', 'Umwelttechnik', 'Verfahrenstechnik', 'Windkraft']
+[('Umweltschutz', 0.8205108642578125), ('Ressourceneffizienz', 0.8119056820869446), ('Kreislaufwirtschaft', 0.8115943074226379), ('regenerative_Energien', 0.8083051443099976), ('Ressourcenschutz', 0.7979539036750793), ('Nachhaltigkeit', 0.7922865748405457), ('regionale_Wertschoepfung', 0.7885533571243286), ('Landwirtschaft', 0.7884226441383362), ('Elektro-Mobilitaet', 0.7879350185394287), ('nachhaltige_Landwirtschaft', 0.787778377532959)]
+
+Cluster:  0
+['Batterie', 'Bike', 'Elektromobil', 'Elektromotor', 'Fahrrad', 'Ladestation', 'Schienenfahrzeug']
+[('Elektrorad', 0.8371062278747559), ('Elektromobil', 0.8104435801506042), ('Ladestation', 0.8053838610649109), ('Pedelec', 0.80385822057724), ('E-Mobil', 0.800527036190033), ('Ladesaeule', 0.7911274433135986), ('Elektroantrieb', 0.7894763946533203), ('Elektrofahrzeug', 0.7882144451141357), ('Elektromotor', 0.7815840244293213), ('Lastenrad', 0.7798460125923157)]
+
+Cluster:  2
+['Biogas', 'biologisch', 'Bio', 'Biotech', 'Emission', 'energetisch', 'erneuerbar', 'klimaneutral', 'led', 'Leichtbau', 'Mehrweg', 'offshore', 'Pellet', 'Pflanze', 'Photovoltaik', 'ressourcenschonend', 'Stahlschrott', 'umweltfreundlich', 'umweltgerecht', 'umweltschonend', 'Wertstoff']
+[('Bioerdgas', 0.8361114859580994), ('klimafreundlich', 0.8273764848709106), ('CO2-neutral', 0.8219620585441589), ('klimafreundlicher', 0.8206824064254761), ('Biogasproduktion', 0.820516049861908), ('umweltschonend', 0.8141827583312988), ('Erdgasnetz_eingespeist', 0.8099117279052734), ('Heizen_Holz', 0.8097496628761292), ('umweltgerecht', 0.8052253127098083), ('Reststoffen', 0.8028585314750671)]
+
