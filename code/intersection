@@ -1,0 +1,14 @@
+
+Intersection:
+Cluster:  0
+['Wasseraufbereitung', 'Elektromobil', 'Korrosionsschutz', 'Elektromotor', 'Pellet', 'Reparatur', 'Instandsetzung', 'Dekontamination', 'Messtechnik', 'Wasseraufbereitungsanlage', 'ressourcenschonend', 'Haustechnik', 'Batterie', 'Bike', 'Abdichtung', 'Brandschutz', 'Filteranlagen', 'Schallschutz', 'Sanierung', 'Fahrrad', 'Elektroantrieb', 'Abgasreinigung', 'Schrott', 'Kanalsanierung', 'Regeltechnik', 'Ladestation', 'Schienenfahrzeug', 'Fahrgemeinschaft', 'Recyclinganlage', 'Ventilator', 'langlebig', 'Mitfahrgelegenheit', 'Feuerschutz', 'Steuerungstechnik']
+[('Pelletsheizung', 0.8350656032562256), ('Warmwasseraufbereitung', 0.8236887454986572), ('Holzheizung', 0.8129676580429077), ('Pelletheizung', 0.8068777918815613), ('Be-_Entlueftung', 0.8014142513275146), ('Kuehlaggregate', 0.7931579351425171), ('Lueftungstechnik', 0.7907114028930664), ('Lueftungsanlagen', 0.7899956703186035), ('Brennwerttechnik', 0.7883744239807129), ('Nachtspeicherheizung', 0.7863849997520447)]
+
+Cluster:  2
+['Fensterbau', 'Agrartechnik', 'Prozessoptimierung', 'Landtechnik', 'Recycling', 'Energiemanagement', 'Automatisierungstechnik', 'Landschaftspflege', 'Gartenbau', 'Klimaschutz', 'Ressourcenschonung', 'Klimatechnik', 'Weinbau', 'Umwelt', 'Umweltbewusstsein', 'Lein', 'Forstwirtschaft', 'Verfahrenstechnik', 'Regelungstechnik', 'Leichtbau', 'Energieeffizienz', 'Garten', 'Bio', 'Landwirt', 'Umweltschutz', 'Landschaftsbau', 'Biotech', 'Verpackungstechnik', 'Nachhaltigkeit', 'Blume', 'Umwelttechnik', 'Versorgungstechnik', 'led', 'Landwirtschaft']
+[('Ressourceneffizienz', 0.8144096732139587), ('Umwelttechnik', 0.8085201978683472), ('Energietechnik', 0.8028507828712463), ('Automatisierungs-', 0.7849849462509155), ('Forsttechnik', 0.7825676798820496), ('Prozesstechnik', 0.7806483507156372), ('betriebliches_Gesundheitsmanagement', 0.7803715467453003), ('Kreislaufwirtschaft', 0.780057430267334), ('Elektro-Mobilitaet', 0.7796447277069092), ('Umwelttechnologie', 0.779576301574707)]
+
+Cluster:  1
+['Energieeinsparung', 'Biogas', 'Ernte', 'Schadstoff', 'Entsorgung', 'Windkraftanlage', 'Abwasserreinigung', 'Pflanze', 'Deponie', 'Biogasanlage', 'Energiegewinn', 'Windkraft', 'umweltfreundlich', 'klimaneutral', 'Windenergie', 'Abwasseraufbereitung', 'offshore', 'Photovoltaik', 'Photovoltaikanlage', 'Erdgas', 'Solaranlage', 'Abwasserbehandlung', 'Abfall', 'biologisch', 'Abluft', 'Biomasse', 'Abwasser', 'Energieversorgung', 'Bioenergie', 'Wertstoff', 'regenerativ', 'Geothermie', 'Emission', 'Entsorgungsunternehmen', 'erneuerbar', 'Energiewende']
+[('Biogas', 0.8721238970756531), ('Biomasse', 0.868482768535614), ('Bioerdgas', 0.8488290309906006), ('regenerative_Energie', 0.8476643562316895), ('Energiegewinnung', 0.8422085642814636), ('Stromerzeugung', 0.841743528842926), ('Fotovoltaik', 0.8404067754745483), ('Biogasanlagen', 0.839508056640625), ('regenerativer_Energie', 0.8389028310775757), ('Waermegewinnung', 0.8327245116233826)]
+
