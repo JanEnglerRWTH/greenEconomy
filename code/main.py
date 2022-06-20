@@ -3,10 +3,10 @@ import json
 import pickle
 from extern.jobsuche_api import api_example as api
 import itertools
+from collections import Counter
 
-def process_one_job(refnr, result, jwt):
+def process_one_job(refnr, jwt):
     job_detail = api.job_details(jwt["access_token"], refnr)
-    #print(json.dumps(job_detail["stellenbeschreibung"], indent=4, sort_keys=False))
     if "stellenbeschreibung" in job_detail:
         return job_detail["stellenbeschreibung"]
     else:
@@ -18,7 +18,6 @@ def process_one_job(refnr, result, jwt):
 def process_one_page(result, jwt):
     page_stellen=[]
     untill= len(result['stellenangebote'])
-    print("untill: ", untill)
     for i in range(0,untill):
         cur_refnr = result['stellenangebote'][i]["refnr"]
         print("Processing job ", i,  "with ref nr ", cur_refnr)
@@ -29,27 +28,19 @@ def process_one_page(result, jwt):
 def process_whole(beruf):
     jwt = api.get_jwt()
     alle_stellen=[]
-    for i in range(61,81):
+    for i in range(1,101):
         print("Processing page: ", i)
         result_page_i = api.custom_search(jwt["access_token"], beruf, page=i)
-        print(result_page_i)
         if "messages" in result_page_i or "stellenangebote" not in result_page_i:
             print("EMPTY")
             break
         page_stellen = process_one_page(result_page_i, jwt)
         alle_stellen.insert(-1,page_stellen)
     flat_list = list(itertools.chain(*alle_stellen))
-    print(len(flat_list))
-    with open('data/metallbauer/metallbauer_61_80.pkl', 'wb') as f:
+    with open('data/'+str(beruf)+'/'+str(beruf)+'_1_100.pkl', 'wb') as f:
         pickle.dump(flat_list, f)
 
 
-def manual_test():
-    with open('data/metallbauer/metallbauer.pkl', 'rb') as f:
-        alle_stellen = pickle.load(f)
-    print(json.dumps(alle_stellen, indent=4, sort_keys=False))
-
-from collections import Counter
 
 def arbeitsortAnalyse(beruf):
     jwt = api.get_jwt()
@@ -65,8 +56,6 @@ def arbeitsortAnalyse(beruf):
             else:
                 cur_reg = "Missing"
             regions.append(cur_reg)
-    # job_detail = api.job_details(jwt["access_token"], result['stellenangebote'][0]["refnr"])
-    # print(json.dumps(job_detail, indent=4, sort_keys=False))
     print(len(regions))
     counts = Counter(regions)
     print(counts)
@@ -109,8 +98,8 @@ def manual():
 
 
 if __name__ == "__main__":
-    manual()
-    #process_whole(beruf="Metallbauer/in")
+    #manual()
+    process_whole(beruf="Metallbauer/in")
     #process_one_page(0,result)
     #print(result['stellenangebote'][0]["refnr"])
     #process_one_job(result['stellenangebote'][0]["refnr"])
@@ -119,4 +108,3 @@ if __name__ == "__main__":
 
     #print(len(result['stellenangebote']))
     #print(result['stellenangebote'][0])
-print("end")

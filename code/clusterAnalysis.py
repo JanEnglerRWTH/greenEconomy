@@ -17,11 +17,22 @@ modelDir = 'models/'
 from gensim.models import word2vec
 #model = gensim.models.KeyedVectors.load_word2vec_format("models/german.model", binary=True)
 
+file_name='data/metallbauer/bubble_string_metallbauer.txt'
+with open(file_name, 'r') as file:
+  data1 = file.read()
 file_name='data/mechatroniker/bubble_string_mechatroniker.txt'
 with open(file_name, 'r') as file:
-  data = file.read()
+  data2 = file.read()
+file_name='data/anlagenfuehrer/bubble_string_anlagenfuehrer.txt'
+with open(file_name, 'r') as file:
+  data3 = file.read()
 #print(data)
 boolProcess = False
+
+
+def intersection(lst1, lst2, lst3):
+  return list(set(lst1) & set(lst2)& set(lst3))
+
 
 
 def word_count(str):
@@ -35,15 +46,30 @@ def word_count(str):
     else:
       counts[word] = 1
   for key, value in counts.items():
-    if value > 10:
+    if value > 1:
       #print(key)
       counts2.append(key)
   return counts, counts2
 
-counts, frequent_words = word_count(data)
 
-words = data.split()
-words = frequent_words
+
+
+counts, frequent_words1 = word_count(data1)
+counts, frequent_words2 = word_count(data2)
+counts, frequent_words3 = word_count(data3)
+
+
+
+list1 = data1.split()
+list2 = data2.split()
+list3 = data3.split()
+
+intersection_data = intersection(list1, list2, list3)
+data = [item for item in frequent_words3 if item not in intersection_data]
+
+print(len(data))
+#words = data.split()
+words = data
 #print (" ".join(sorted(set(words), key=words.index)))
 green_words = sorted(set(words), key=words.index)
 #print(green_words)
@@ -111,8 +137,9 @@ def kMeans(data, k):
 
 
 
-kMeans(data_embeddings, 6)
-
+#kMeans(data_embeddings, 3)
+print(intersection_data)
+print(len(intersection_data))
 #print(green_words)
 
 #print(word_count(data))

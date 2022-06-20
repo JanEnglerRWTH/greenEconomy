@@ -1,11 +1,8 @@
-import gensim
 import pandas as pd
 import os
 import pickle
 import re  # For preprocessing
-#import spacy
 import nltk
-
 #nltk.download('stopwords')
 from HanTa import HanoverTagger as ht
 
@@ -64,36 +61,9 @@ def pickleToPandas(filepath):
   df.to_pickle(filepath+"_pd.pkl")
 
 
-def preprocessPandas(filename):
-  df = loadPandas(str(filename)+'.pkl')
-  nlp = spacy.load("de_core_news_sm", disable=['ner', 'parser'])
-
-  def cleaning(doc):
-    # Lemmatizes and removes stopwords
-    # doc needs to be a spacy Doc object
-    txt = [token.lemma_ for token in doc if not token.is_stop] #.lower()
-    # Word2Vec uses context words to learn the vector representation of a target word,
-    # if a sentence is only one or two words long,
-    # the benefit for the training is very small
-    if len(txt) > 2:
-      return ' '.join(txt)
-
-  pattern = r'[' + """!"#$%&'()*+,-./:;<=>?@[\]•^_`{|}~1234567890""" + ']'
-  brief_cleaning = (re.sub(pattern, ' ', row) for row in df[0]) #re.sub("[^A-Za-z']+", ' ', str(row))
-
-  txt = [cleaning(doc) for doc in nlp.pipe(brief_cleaning, batch_size=500)]
-
-  df_pre = pd.DataFrame(txt)
-  df_pre = df_pre.dropna().drop_duplicates()
-  print(df_pre.shape)
-  file_name = str(filename)+'_pre.pkl'
-  df_pre.to_pickle(file_name)
-  return df_pre
-
 
 def loadPandas(filepath):
   df = pd.read_pickle(filepath)
-  #print(df[0][0])
   return df
 
 
@@ -114,19 +84,10 @@ if __name__ == "__main__":
   #pre_stellen = preprocessDict(filepath4)
   #pre_stellen = preprocessDict(filepath5)
   #combinePickles("metallbauer")
-  #print(pre_stellen)
-  #filepath='data/anlagenfuehrer/anlagenfuehrer_1_100_pd.pkl'
-  #filepath = 'data/anlagenfuehrer/anlagenfuehrer_1_100_pd_pre.pkl'
+
+
   filename_mechatroniker = 'data/mechatroniker/mechatroniker_1_100_pre'
-  filename_anlagenfuehrer = 'data/anlagenfuehrer/anlagenfuehrer_1_100_pre_pd.pkl'
+  filename_anlagenfuehrer = 'data/anlagenfuehrer/anlagenfuehrer_1_100_pre'
   filename_metallbauer = 'data/metallbauer/metallbauer_1_100_pre'
   #combinePickles("mechatroniker")
   pickleToPandas(filename_metallbauer)
-  #df = loadPandas(str(filename_mechatroniker)+".pkl")
-  #print(df[0][0])
-
-  #df_pre = preprocessPandas(filename_mechatroniker)
-  #filepath = 'data/anlagenfuehrer/anlagenfuehrer_1_100_pd_pre.pkl'
-  #df_pre = loadPandas(str(filename_mechatroniker)+"_pre.pkl")
-  #print(df_pre[0][0])
-  #filename_mechatroniker = 'data/mechatroniker/mechatroniker_1_100_pd_pre.pkl'
